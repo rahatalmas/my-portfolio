@@ -1,0 +1,16 @@
+.card{
+    width: 100%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.i-c{
+    text-align: center;
+}
+.card-img{
+    height:350px;
+    border-radius: 25px;
+}
+.text-c{
+    padding:0 10px;
+}

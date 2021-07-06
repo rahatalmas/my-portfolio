@@ -1,0 +1,51 @@
+.hm-c{
+    box-sizing: border-box;
+}
+.hm{
+  height: 70vh;
+  background-color: rgb(37, 37, 68);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.h-intro{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.l{
+    padding:10px;
+    border:2px solid rgb(204, 55, 68);
+    border-radius:100%;
+    margin: 10px;
+}
+.i-t h1{
+   color:whitesmoke;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+.i-t p{ 
+    color: rgb(236, 230, 230);
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+button{
+    padding: 10px;
+    color:rgb(226, 65, 37);
+    font-weight: bold;
+    width: 15%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.h-img-c{
+    padding: 20px;
+    width: 40%;
+}
+.intro-img{
+    width: 250px;
+}
