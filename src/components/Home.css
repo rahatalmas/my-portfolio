@@ -19,6 +19,9 @@
     border:2px solid rgb(204, 55, 68);
     border-radius:100%;
     margin: 10px;
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
 }
 .i-t h1{
    color:whitesmoke;
@@ -34,10 +37,11 @@ button{
     padding: 10px;
     color:rgb(226, 65, 37);
     font-weight: bold;
-    width: 15%;
-    border-radius: 7px;
+    width: 20%;
+    border-radius: 25px;
     outline: none;
-    border: none;
+    border: 1px solid rgb(240, 72, 72);
+    background-color:transparent;
 }
 button:hover{
     cursor: pointer;
@@ -48,4 +52,64 @@ button:hover{
 }
 .intro-img{
     width: 250px;
+}
+
+/*projects */
+.p-h{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.bar{
+    color: rgb(204, 55, 68);
+
+}
+.f-projects-c h4{
+   text-align: center;
+   color: rgb(204, 55, 68);
+   text-transform: capitalize;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0 auto;
+}
+
+.card-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-c{
+    width: 27%;
+    margin: 10px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 580px) {
+    .hm{
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+    .h-intro{
+        width: 100%;
+        margin:20px;
+    }
+    .h-img-c{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .l{
+        margin: 5px;
+    }
+
+    .card-row{
+        flex-direction: column
+    }
+    .card-c{
+        width: 80%;
+    }
 }

@@ -1,14 +1,15 @@
 .card{
     width: 100%;
-    background-color: whitesmoke;
     box-sizing: border-box;
     padding: 15px;
+    background-color: rgb(37, 37, 68);
+    border-radius: 5px;
 }
 .i-c{
     text-align: center;
 }
 .card-img{
-    height:350px;
+    width: 100%;
     border-radius: 25px;
 }
 .text-c{

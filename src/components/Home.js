@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Card from './subComponents/Card'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faYoutube,
@@ -16,14 +17,14 @@ const Home = () =>{
         <div className="hm">
             <div className="h-intro">
                 <div className="l-c">
-                    <a className="l"><FontAwesomeIcon icon={faGithub} size="1x" /></a> 
-                    <a className="l"><FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
-                    <a className="l"><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
-                    <a className="l"><FontAwesomeIcon icon={faInstagram} size="1x" /></a>
+                    <a className="l" href="https://github.com/rahatalmas" target="_blank"><FontAwesomeIcon icon={faGithub} size="1x" /></a> 
+                    <a className="l" href=""><FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
+                    <a className="l" href=""><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
+                    <a className="l" href=""><FontAwesomeIcon icon={faInstagram} size="1x" /></a>
                 </div>
                 <div className="i-t"> 
                     <h1>I am Rahat Almas</h1>
-                    <p>I am a software engineer.<br/>
+                    <p>I am a computer engineer.<br/>
                      <span>I have many experiences in 
                          web development.
                      </span>
@@ -39,13 +40,61 @@ const Home = () =>{
         
 
         <div className="f-projects-c">
-            <h2>projects</h2>
-            <div>
-                <div>
-                   p1
+             <div className="p-h">
+              <h4>my activities</h4>
+              <p>I always try to use time properly.<br/>
+               I do competetive programming, web development and 
+               sometimes i do photography also.
+               <br/>photography is my hobby<br/><br/>
+                <span className="bar">_________</span>
+              </p> 
+             </div>
+            <div className="card-row">
+               <div className="card-c" >
+                   <Card
+                        data1="logo"
+                        data2="title"
+                        data3="details"
+                   />
                 </div>
-                <div>
-                    p2
+                <div className="card-c">
+                    <Card 
+                        data1="logo"
+                        data2="title"
+                        data3="details"
+                   />
+                </div>
+                <div className="card-c" >
+                   <Card 
+                        
+                        data1="logo"
+                        data2="title"
+                        data3="details"
+                   />
+                </div>
+                <div className="card-c">
+                    <Card 
+                       
+                       data1="logo"
+                       data2="title"
+                       data3="details"
+                   />
+                </div>
+                <div className="card-c" >
+                   <Card 
+                       
+                       data1="logo"
+                       data2="title"
+                       data3="details"
+                   />
+                </div>
+                <div className="card-c">
+                    <Card 
+                       
+                       data1="logo"
+                       data2="title"
+                       data3="details"
+                   />
                 </div>
             </div>
         </div>

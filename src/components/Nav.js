@@ -8,6 +8,7 @@ const Nav = () =>{
                 <div className="col1">
                      <h3>Life Of Almas</h3>
                 </div>
+                
                 <div className="col-l">
                     <Link to="/" className="n-l">Home</Link>
                     <Link to="/about" className="n-l">About</Link>
