@@ -7,7 +7,7 @@ import {
     faFacebook,
     faInstagram,
     faGithub,
-    faLinkedin
+    faLinkedin,
   } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () =>{
@@ -18,8 +18,8 @@ const Home = () =>{
             <div className="h-intro">
                 <div className="l-c">
                     <a className="l" href="https://github.com/rahatalmas" target="_blank"><FontAwesomeIcon icon={faGithub} size="1x" /></a> 
-                    <a className="l" href=""><FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
-                    <a className="l" href=""><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
+                    <a className="l" href="https://www.linkedin.com/in/rahat-almas-2683a6171/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="1x" /></a>
+                    <a className="l" href="https://www.facebook.com/rahat.almas.5/" target="_blank"><FontAwesomeIcon icon={faFacebook} size="1x" /></a>
                     <a className="l" href=""><FontAwesomeIcon icon={faInstagram} size="1x" /></a>
                 </div>
                 <div className="i-t"> 
@@ -46,14 +46,13 @@ const Home = () =>{
                I do competetive programming, web development and 
                sometimes i do photography also.
                <br/>photography is my hobby<br/><br/>
-                <span className="bar">_________</span>
+                <span className="bar">________</span>
               </p> 
              </div>
             <div className="card-row">
                <div className="card-c" >
                    <Card
-                        data1="logo"
-                        data2="title"
+                        data2="web development"
                         data3="details"
                    />
                 </div>
@@ -74,15 +73,13 @@ const Home = () =>{
                 </div>
                 <div className="card-c">
                     <Card 
-                       
                        data1="logo"
                        data2="title"
                        data3="details"
                    />
                 </div>
                 <div className="card-c" >
-                   <Card 
-                       
+                   <Card      
                        data1="logo"
                        data2="title"
                        data3="details"
@@ -90,8 +87,7 @@ const Home = () =>{
                 </div>
                 <div className="card-c">
                     <Card 
-                       
-                       data1="logo"
+                       data1=""
                        data2="title"
                        data3="details"
                    />

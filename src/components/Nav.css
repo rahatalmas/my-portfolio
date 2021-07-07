@@ -1,6 +1,7 @@
 .m-c{
     box-sizing: border-box;
     margin: 0;
+    border: 1px solid black;
 }
 .n-c{
     display: flex;

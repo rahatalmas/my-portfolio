@@ -55,6 +55,10 @@ button:hover{
 }
 
 /*projects */
+.f-projects-c{
+    padding-top: 25px;
+
+}
 .p-h{
     padding: 10px;
     text-align: center;
@@ -78,7 +82,6 @@ button:hover{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .card-c{
